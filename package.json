@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "description": "An example of how to build an Angular 2 application using RxJs Observable Data Services",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server --colors --display-error-details --content-base src --port 8081",
+    "start": "cd src && node --harmony server.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "http-proxy": "^1.13.1",
+    "immutable": "^3.7.6",
+    "lodash": "^4.3.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.6",
+    "rxjs": "5.0.0-beta.0"
+  }
+}
